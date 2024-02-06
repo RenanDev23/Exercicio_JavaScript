@@ -1,0 +1,65 @@
+* {
+    background-color: #000;
+    color: #fff;
+    display:block;
+    border-radius: 5px;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 50%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    max-width: 640px;
+    width: 104%;
+}
+
+button:hover {
+    background-color:  rgba(255, 0, 0, 0.625);
+}
+
+.success-message {
+    background-color: rgb(71, 224, 153);
+    padding: 16px;
+    color: #fff;
+    display: none;
+    max-width: 640px;
+    width: 98%;
+}
+
+.error-message {
+    font-size: 12px;
+    padding: 8px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+    max-width: 640px;
+    width: 100%;
+}
+
+input.error {
+    color: rgb(232, 17, 17);
+    border-color: rgb(232, 17, 17);
+    outline-color: rgb(232, 17, 17);
+}
